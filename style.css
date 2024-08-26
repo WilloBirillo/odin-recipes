@@ -1,37 +1,42 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    box-sizing: border-box;
+    background-color: #f8d3a5;
 }
 
-img {
-    display: block;
+.container{
+    width: 500px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.div-list{
-    text-align: center;
+.h1 {
+    font-size: 25px;
 }
 
-ul, ol{
-    display: inline-block;
-    text-align: left;
+.img{
+    margin: 0px -150px 30px;
+    border-radius: 10px;
 }
 
-li {
+ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-a {
+.list{
+    background-color: #ffcaca;
+    padding: 8px;
+    font-size: 20px;
+    border: 1px black;
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+a{
     text-decoration: none;
-}
-
-a, li {
-    color: rgb(145, 26, 26);
-    font-size: 18px;
-}
-
-button {
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(216, 216, 216);
+    color: #000000;
 }
